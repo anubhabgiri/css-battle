@@ -1,0 +1,42 @@
+<!-- https://cssbattle.dev/play/160 -->
+<div class='main'>
+    <div class='in orange one'></div>
+    <div class='in yellow two'></div>
+    <div class='in yellow three'></div>
+    <div class='in yellow four'></div>
+      <div class='c'></div>
+    </div>
+    <style>
+      .main{
+        height: 200px; 
+        width: 200px; 
+        position: relative; 
+        margin: 0 auto; 
+        margin-top: 50px;
+      }
+      .in{
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        z-index: 0;
+      }
+      .yellow{ background: #F7EC7D }
+      .orange{ background: #E38F66}
+      .one{ left: 0; top: 0; border-radius: 100% 0 0 0; }
+      .two{  right: 0; top:0; border-radius: 0 100% 0 0;}
+      .three{ right:0; bottom: 0;border-radius: 0 0 100% 0;}
+      .four {left: 0; bottom: 0; border-radius: 0 0 0 100%;}
+      .c{
+        background: #62306D;
+        height: 60%;
+        width: 60%;
+        z-index: 1;
+        border-radius: 50%;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+      }
+    
+      body{ background: #62306D}
+    </style>
+    
