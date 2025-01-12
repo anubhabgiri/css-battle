@@ -1,0 +1,31 @@
+<!-- https://cssbattle.dev/play/161 -->
+<div class='container'>
+    <div class='in left'></div>
+    <div class='in top'></div>
+    <div class='in right'></div>
+    <div class='in bottom'></div>
+  </div>
+  <style>
+    .container{
+      position: relative;
+      margin: 0 auto;
+      margin-top: 50px;
+      width: 200px;
+      height: 200px;
+    }
+    .in{
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 80px solid transparent;
+      border-left: 80px solid transparent;
+      border-right: 80px solid transparent;
+      border-bottom: 80px solid transparent;
+    }
+    .left{ border-left: 80px solid #FADE8B; left: 0; top: 20px;}
+    .right { border-right: 80px solid #FADE8B; right: 0; top: 20px}
+    .top{ border-top: 80px solid #FADE8B; top: 0; left: 20px}
+    .bottom{ border-bottom: 80px solid #FADE8B; bottom: 0; left: 20px}
+    body { background: #E3516E }
+  </style>
+  
