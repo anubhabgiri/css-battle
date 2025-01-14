@@ -1,0 +1,42 @@
+<!-- https://cssbattle.dev/play/140 -->
+<div class='container'>
+    <div class='in mountain'></div>
+    <div class='in moon circle'></div>
+    <div class='in shadow circle'></div>
+  </div>
+  <style>
+    .container{
+      margin: 0 auto;
+      width: 340px;
+      height: 300px;
+      position: relative;
+    }
+    .in{ position: absolute;  }
+    .mountain{
+      width: 0;
+      height: 0;
+      border-bottom: solid 170px #1038BF;
+      border-right: solid 170px transparent;
+      border-left: solid 170px transparent;
+      bottom: 0px;
+      z-index: 3;
+    }
+    .circle{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      left: 130px;
+    }
+    .moon{
+      background: #FFFFFF;
+      top: 40px;
+      z-index: 1;
+    }
+    .shadow{
+      background: #4F77FF;
+      top: 80px;
+      z-index: 2;
+    }
+    body{ background: #4F77FF }
+  </style>
+  
