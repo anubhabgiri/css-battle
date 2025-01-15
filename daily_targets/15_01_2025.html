@@ -1,0 +1,45 @@
+<!-- https://cssbattle.dev/play/WI1Eob8i2saLtA9ChmGi -->
+<div class='container'>
+    <div class='bar'></div>
+    <div class='trapezoid st'></div>
+    <div class='trapezoid inv'></div>
+    <div class='bar'></div>
+</div>
+<style>
+    div:not(.container) {
+        background: #4F77FF;
+    }
+
+    .container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 150px;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 80px;
+        left: 60px;
+    }
+
+    .trapezoid {
+        width: 150px;
+        height: 30px;
+    }
+
+    .st {
+        transform: perspective(10px) rotateX(7deg);
+    }
+
+    .inv {
+        transform: perspective(10px) rotateX(-7deg);
+    }
+
+    body {
+        background: #E0E7FF
+    }
+</style>
