@@ -1,0 +1,42 @@
+<!-- https://cssbattle.dev/play/89 -->
+<div class='container'>
+    <div class="in circle"></div>
+    <div class="in black-circle"></div>
+    <div class="in triangle"></div>
+  </div>
+  <style>
+    .container{
+      margin: 0 auto;
+      position: relative;
+      width: 200px;
+      height: 300px;
+    }
+    .in { position: absolute  }
+    .circle{
+      width: 200px;
+      height: 200px;
+      background: #F9E492;
+      border-radius: 50%;
+      top: 40px;
+    }
+    .black-circle{
+      width: 95px;
+      height: 95px;
+      border-radius: 0 0 100% 0;
+      background: #191919;
+      rotate: 45deg;
+      left: 50px;
+      top: 170px;
+      z-index: 1;
+    }
+    .triangle{
+      width: 0;
+      height: 0;
+      border-bottom: 150px solid #4F77FF;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      bottom: 0;
+      left: -50px;
+    }
+    body{ background: #191919 }
+  </style>
