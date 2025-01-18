@@ -1,0 +1,64 @@
+<!-- https://cssbattle.dev/play/9MfUEJSgAzQBChpzEB7Z -->
+<div class="outer">
+    <div class="left wrapper">
+        <div class="container">
+            <div class='in'></div>
+            <div class='side'></div>
+        </div>
+    </div>
+    <div class="right wrapper">
+        <div class="container">
+            <div class='in'></div>
+            <div class='side'></div>
+        </div>
+    </div>
+</div>
+<style>
+    .outer {
+        margin: 0 auto;
+        position: relative;
+        height: 200px;
+        width: 240px;
+        margin-top: 40px;
+    }
+
+    .wrapper {
+        position: absolute;
+    }
+
+    .container {
+        position: relative;
+        width: 120px;
+        height: 200px;
+    }
+
+    .left {
+        left: 0
+    }
+
+    .right {
+        right: 0
+    }
+
+    .in {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 40px solid #328FC1;
+        position: absolute;
+        right: 0;
+        top: 20px;
+    }
+
+    .side {
+        width: 80px;
+        height: 80px;
+        background: none;
+        border-radius: 0 0 100% 0;
+        border: 40px solid #328FC1;
+        border-top: #FFFFFF;
+        border-left: #FFFFFF;
+        position: absolute;
+        bottom: 0;
+    }
+</style>
