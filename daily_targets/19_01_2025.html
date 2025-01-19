@@ -1,0 +1,40 @@
+<!-- https://cssbattle.dev/play/TRefBi9dFm6BDe2shLZM -->
+<div class="container">
+    <div class="in left-quarter"></div>
+    <div class="square"></div>
+    <div class="in right-quarter"></div>
+  </div>
+  <style>
+    body { background: #328FC1; margin: 0; }
+    .container{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    div:not(.container){
+      background: #FADE8B;
+      position: absolute;
+    }
+    .in{
+      width: 70px;
+      height: 70px;
+    }
+    .left-quarter{
+      border-radius: 0 0 100% 0;
+      left: 0;
+      top: 0;
+    }
+    .right-quarter{
+      border-radius: 100% 0 0 0;
+      right: 0;
+      bottom: 0;
+    }
+    .square{
+      width: 140px;
+      height: 140px;
+      left: 130px;
+      top: 80px;
+    }
+  </style>
+  
