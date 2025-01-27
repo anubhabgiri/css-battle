@@ -1,0 +1,53 @@
+<!-- https://cssbattle.dev/play/rqBO1WR1Blg09ojxrzHn -->
+<div class="container">
+    <div class="sm"></div>
+    <div class="lg"></div>
+    <div class="sm"></div>
+    <div class="lg"></div>
+    <div class="sm"></div>
+</div>
+<div class="container rg">
+    <div class="sm rt"></div>
+    <div class="lg rt"></div>
+    <div class="sm rt"></div>
+    <div class="lg rt"></div>
+    <div class="sm rt"></div>
+</div>
+<style>
+    .container {
+        position: absolute;
+        width: 120px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-top: 15px solid transparent;
+    }
+
+    .lg {
+        width: 120px;
+        height: 30px;
+    }
+
+    .sm {
+        height: 30px;
+        width: 60px;
+    }
+
+    .rt {
+        margin-left: auto;
+    }
+
+    .rg {
+        right: 0;
+    }
+
+    div:not(.container) {
+        background: #F5E3B5
+    }
+
+    body {
+        background: #469DBA;
+        margin: 0
+    }
+</style>
