@@ -1,0 +1,37 @@
+<!-- https://cssbattle.dev/play/bHKdK1RHDMgFRN3qqNqD -->
+<div class='container'>
+    <div class='inner'>
+      <div class="tri"></div>
+      <div class="tri"></div>
+    </div>
+    <div class='inner bottom'>
+      <div class="tri"></div>
+      <div class="tri"></div>
+    </div>
+    </div>
+    <style>
+      :root { --tridem: 40px; --wid: 80px}
+      .container{
+        margin: auto;
+        height: 240px;
+        width: 80px;
+        position: relative;
+        margin-top: 60px;
+        background: #F5E3B5;
+      }
+      .inner{
+        height: var(--wid);
+        width: var(--wid);
+        position: absolute;
+      }
+      .bottom{ bottom: 0}
+      .tri{
+        height: 0;
+        width: 0;
+        border-bottom: var(--tridem) solid #9076D8;
+        border-left: var(--tridem) solid transparent;
+        border-right: var(--tridem) solid transparent
+      }
+      body{ background: #9076D8}
+    </style>
+    
